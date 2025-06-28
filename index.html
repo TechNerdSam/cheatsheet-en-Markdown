@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet Markdown pour GitHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="three-bg"></div>
+
+    <header class="parallax-section">
+        <h1>Cheatsheet Markdown</h1>
+        <p>Le guide ultime pour des `readme.md` parfaits sur GitHub</p>
+    </header>
+
+    <main>
+        <section id="basics" class="cheatsheet-section">
+            <h2>Les Bases</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Titres</h3>
+                    <pre><code># H1
+## H2
+### H3</code></pre>
+                </div>
+                <div class="grid-item">
+                    <h3>Texte</h3>
+                    <pre><code>*Italique* ou _Italique_
+**Gras** ou __Gras__
+~~Barré~~</code></pre>
+                </div>
+                <div class="grid-item">
+                    <h3>Citations</h3>
+                    <pre><code>> Ceci est une citation.</code></pre>
+                </div>
+                 <div class="grid-item">
+                    <h3>Lignes Horizontales</h3>
+                    <pre><code>---</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="lists" class="cheatsheet-section parallax-section">
+            <h2>Listes</h2>
+             <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Non Ordonnée</h3>
+                    <pre><code>- Element 1
+- Element 2
+  - Sous-element</code></pre>
+                </div>
+                <div class="grid-item">
+                    <h3>Ordonnée</h3>
+                    <pre><code>1. Premier element
+2. Deuxième element</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="code" class="cheatsheet-section">
+            <h2>Code</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>En ligne</h3>
+                    <pre><code>Du code `en ligne` ici.</code></pre>
+                </div>
+                <div class="grid-item">
+                    <h3>Bloc de Code</h3>
+                    <pre><code>```javascript
+function hello() {
+  console.log("Hello World!");
+}
+```</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="links-images" class="cheatsheet-section parallax-section">
+            <h2>Liens & Images</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Liens</h3>
+                    <pre><code>[Texte du lien](https://www.github.com)</code></pre>
+                </div>
+                <div class="grid-item">
+                    <h3>Images</h3>
+                    <pre><code>![Texte alternatif](url_de_l_image.jpg)</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="tables" class="cheatsheet-section">
+            <h2>Tableaux</h2>
+            <div class="grid-container full-width">
+                <div class="grid-item">
+                    <pre><code>| Entête 1 | Entête 2 |
+|---|---|
+| Contenu 1 | Contenu 2 |
+| Contenu 3 | Contenu 4 |</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="github" class="cheatsheet-section parallax-section">
+            <h2>Spécificités GitHub</h2>
+            <div class="grid-container">
+                 <div class="grid-item">
+                    <h3>Listes de tâches</h3>
+                    <pre><code>- [x] Tâche terminée
+- [ ] Tâche à faire</code></pre>
+                </div>
+                 <div class="grid-item">
+                    <h3>Mentions</h3>
+                    <pre><code>@nomdutilisateur</code></pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
